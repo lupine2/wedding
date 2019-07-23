@@ -1,0 +1,146 @@
+/* style.css */
+/* 
+    main color: #ef7a56
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 100%;
+    color: #333;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* header */
+header{
+    font-family: 'Lucida Calligraphy', cursive;
+    padding-top: 55px;
+    padding-bottom: 45px;
+    /* background-color: #eee; */
+}
+header span:first-child{
+    font-size: 22px;
+    display: block;
+    margin-left: 4em;
+}
+header span:last-child{
+    font-size: 55px;
+    color: #ef7a56;
+}
+
+/*
+    비주얼 이미지 3장
+    750 * 430 px
+*/
+/* visual */
+#visual{
+
+}
+#visual .slider{
+    width: 100%;
+}
+#visual .slider img{
+    width: 100%;
+}
+.bx-wrapper{border: none !important;}
+
+/* intro - info */
+#intro .info{
+    padding-bottom: 50px;
+}
+#intro .info h2{
+    margin-bottom: 1em;
+}
+#intro .info h2 span{
+    color: #ef7a56;
+}
+
+/* intro - address */
+#intro .address{
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: #ef7a56;
+    padding: 40px;
+    padding-bottom: 40px;
+    font-size: 16px;
+}
+#intro .address span{
+    display: block;
+    color: #fff;
+}
+#intro .address span:first-child{
+    margin-bottom: 0.5em;
+}
+
+/* map */
+#map{
+    font-family: 'Nanum Gothic', sans-serif;
+    padding-top: 60px;
+}
+#map h2{
+    font-size: 20px;
+    margin-bottom: 1.4em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 0.5em;
+}
+
+/* map - addr */
+#map .addr li{
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+/* map - addr - metro */
+#map .addr .metro img{
+    width: 20px;
+    vertical-align: middle;
+}
+#map .addr .metro span{
+    color: #93278f;
+}
+
+/* map - addr - bus */
+#map .addr .bus img{
+    width: 20px;
+    vertical-align: middle;
+}
+
+/* call */
+#call{
+    font-family: 'Nanum Gothic', sans-serif;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+#call h2{
+    margin-bottom: 1em;
+}
+#call a img{
+    width: 38px;
+}
+#call a:first-child img{
+    margin-right: 0.5em;
+}
+#call a:last-child img{
+    margin-left: 0.5em;
+}
+
+/* footer */
+footer{
+    background-color: #ef7a56;
+    padding: 1.2em;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #fff;
+    line-height: 1.5em;
+}
+footer a{
+    color: #fff;
+}
